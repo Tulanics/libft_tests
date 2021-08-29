@@ -25,9 +25,6 @@ all: compile clear
 
 compile:
 	gcc -c -Wall -Wextra -Werror ${SRC}
-
-main:
-	gcc -c -Wall -Wextra -Werror ${SRC}
 	gcc main.c ${COF}
 	./a.out
 
