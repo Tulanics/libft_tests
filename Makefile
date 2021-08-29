@@ -32,4 +32,3 @@ clear:
 	rm *.o
 	rm a.out
 
-.PHONY: main
